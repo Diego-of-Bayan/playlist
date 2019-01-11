@@ -1,8 +1,12 @@
 /* global $ */
 
 // BELOW Update the songs array with four of your favorites songs.
-var songs = [];
-// BELOW Add 4 More arrays to store images_links, atists, song lengths, and links for each song
+var imageLinks["https://i.ytimg.com/vi/djV11Xbc914/hqdefault.jpg", "https://i.ytimg.com/vi/xB9MLUAWkAw/maxresdefault.jpg", "https://www.biography.com/.image/t_share/MTE4MDAzNDEwNjg4MTE2MjM4/frank-sinatra-9484810-3-402.jpg", "https://lwlies.com/wp-content/uploads/2018/06/george-michael-freedom-film-1108x0-c-default.jpg", "https://i.scdn.co/image/7da0877636b199b27e64ee117f71f5b97758349a", ];
+var songs = ["Take On Me", "Spanish Flea", "Fly Me To The Moon", "Careless Whisper", "Yakety Sax", "Mission Impossible (Corrupted)"];
+var artists = ["A-Ha", "Herb Alpert", "Frank Sinatra", "George Michael", "Unknown", "Adam Clayton and Larry Mullen Jr."];
+var songLengths = ["3:47", "60:00", "2:28","5:01:", "4:34", "0:47"];
+var links = ["https://www.youtube.com/watch?v=djV11Xbc914", "https://www.youtube.com/watch?v=1sruEnQ9HkU", "https://www.youtube.com/watch?v=5hxibHJOE5E", "https://www.youtube.com/watch?v=izGwDsrQ1eQ", "https://www.youtube.com/watch?v=ZnHmskwqCCQ", "https://www.youtube.com/watch?v=Erm8wJVXVao"];
+// BELOW Add 4 More arrays to store images_links, artists, song lengths, and links for each song
 // Make sure they match the same order as your array above
 
 
