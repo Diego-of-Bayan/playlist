@@ -16,22 +16,17 @@ let elem3 = $("#artists");
 let elem4 = $("#lengths");
 let elem5 = $("#links");
 let elems = [elem1, elem2, elem3, elem4, elem5];
-for (let i = 0; i < allArrays.length - 1; i++) {
-    allArrays[i].forEach(function(image){
-        for (let x = 0; x < allArrays[i].length - 1; x++) {
-            elems[x].append("<img src='" + image + "'>");  
+for (let i = 0; i < allArrays.length; i++) {
+    allArrays[i].forEach(function(element){
+        if (i === 0) {
+            elems[i].append("<img src='" + element + "'>");
+        } else if (i === 4) {
+            elems[i].append("<a href='" + element + "'>Link</a>")
+        } else {
+            elems[i].append("<h1>" + element + "</h1>")
         }
-        if (i === 1) { //songs
-            allArrays[i].forEach(function(song){
-            elems[i].append("<p>" + song + "</p>");  
-        });      
-    
-    }
+    });
 }
-imageLinks.forEach(function(i){
-    
-});
-songs.forEach()
 function emptySongInfo(){
     $("#songs").empty();
     // Use jQuery to empty all of the remaining divs
